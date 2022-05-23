@@ -35,7 +35,7 @@ loginGoogle(){
 	  // @ts-ignore
 	  google.accounts.id.initialize({
 		// Ref: https://developers.google.com/identity/gsi/web/reference/js-reference#IdConfiguration
-		client_id: '890980377740-8o18dsp35kjmf25ijsphruhhd8ne30c2.apps.googleusercontent.com',
+		client_id: '505917046438-78qvvvbli3p36l033fl1qmc1k2948jqc.apps.googleusercontent.com',
 		callback: this.handleCredentialResponse.bind(this), // Whatever function you want to trigger...
 		auto_select: true,
 		cancel_on_tap_outside: false,
